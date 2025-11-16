@@ -1,0 +1,17 @@
+{
+  "experiment_name": "rtcw_crates_cropped",
+  "method_name": "splatfacto",
+  "checkpoint": "outputs\\rtcw_crates_cropped\\splatfacto\\2025-11-16_161105\\nerfstudio_models\\step-000029999.ckpt",
+  "results": {
+    "psnr": 39.596553802490234,
+    "psnr_std": 2.8794803619384766,
+    "ssim": 0.9828113317489624,
+    "ssim_std": 0.0051282672211527824,
+    "lpips": 0.028097964823246002,
+    "lpips_std": 0.013327821157872677,
+    "num_rays_per_sec": 14421531.0,
+    "num_rays_per_sec_std": 4345727.5,
+    "fps": 31.793006896972656,
+    "fps_std": 9.5803804397583
+  }
+}
