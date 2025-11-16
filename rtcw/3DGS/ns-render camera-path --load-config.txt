@@ -1,0 +1,9 @@
+ns-render camera-path --load-config outputs\rtcw_crates_cropped\splatfacto\2025-11-16_161105\config.yml --camera-path-filename C:\Users\ARITRA\nerfstudio-projects\data\rtcw_crates_cropped\camera_paths\2025-11-16-16-11-09.json --output-path renders/rtcw_crates_cropped/2025-11-16-16-11-09.mp4
+
+steps taken : 29900
+
+ns-eval --load-config "outputs\rtcw_crates_cropped\splatfacto\2025-11-16_161105\config.yml" --output-path "rtcw_splatfacto_metrics.json"
+
+~16 fps where in nerf it was about 0.11 fps
+
+rendering video time : 1:30
