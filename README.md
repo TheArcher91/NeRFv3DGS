@@ -68,19 +68,19 @@ http://localhost:7007/
 ```bash
 nvidia-smi -l 1
 ```
-     Look for the GPU-Util percentage (it should be 90-100%). You can leave this terminal running.
+Look for the GPU-Util percentage (it should be 90-100%). You can leave this terminal running.
 
 4. Watch Your PSNR Graphs: Open a THIRD, separate terminal (as Admin). Activate your environment to nerfstudio-v2 (my case). Navigate to your project folder. Run the TensorBoard server:
 
 ```bash
 tensorboard --logdir=outputs
 ```
-         Your terminal will print a new URL. Open it in your browser to see your live PSNR, SSIM, and LPIPS graphs.
+Your terminal will print a new URL. Open it in your browser to see your live PSNR, SSIM, and LPIPS graphs.
 
 ```bash
 http://localhost:6006/
 ```
-      You can leave this terminal running.
+You can leave this terminal running.
 
 
 
