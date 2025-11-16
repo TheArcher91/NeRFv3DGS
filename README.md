@@ -156,3 +156,13 @@ ns-render camera-path --load-config outputs\rtcw_crates_cropped\splatfacto\2025-
 
 
 ![NeRF v 3DGS](https://drive.google.com/file/d/1cWC6wWVQ8QlhjuRyL0AJqhKr_GekFziv/view?usp=sharing)
+
+
+
+
+
+# Drive Link :
+
+The following link contains all the relevant files along with the paper describing the comparison between the two methods in detail.
+
+- 📖 [Google drive](https://drive.google.com/drive/folders/1eTfcvEhTG1rrAkEWmcNGgAQLKOJeqbTo?usp=sharing)
