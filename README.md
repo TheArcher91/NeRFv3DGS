@@ -155,7 +155,7 @@ ns-render camera-path --load-config outputs\rtcw_crates_cropped\splatfacto\2025-
 # SSIM comparison:
 
 
-![NeRF v 3DGS](https://drive.google.com/file/d/1cWC6wWVQ8QlhjuRyL0AJqhKr_GekFziv/view?usp=sharing)
+![NeRF v 3DGS](https://github.com/TheArcher91/NeRFv3DGS/blob/main/rtcw/3DGS/Eval%20Images%20Metrics-ssim.png?raw=true)
 
 
 
