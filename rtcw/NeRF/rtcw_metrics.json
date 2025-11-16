@@ -1,0 +1,17 @@
+{
+  "experiment_name": "rtcw_crates_cropped",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs\\rtcw_crates_cropped\\nerfacto\\2025-11-16_054618\\nerfstudio_models\\step-000029999.ckpt",
+  "results": {
+    "psnr": 33.87113952636719,
+    "psnr_std": 2.1430134773254395,
+    "ssim": 0.9607604146003723,
+    "ssim_std": 0.015418419614434242,
+    "lpips": 0.04932110756635666,
+    "lpips_std": 0.022495074197649956,
+    "num_rays_per_sec": 211153.046875,
+    "num_rays_per_sec_std": 14375.599609375,
+    "fps": 0.464031845331192,
+    "fps_std": 0.03159194812178612
+  }
+}
