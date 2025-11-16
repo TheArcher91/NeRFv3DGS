@@ -1,0 +1,21 @@
+ns-render camera-path --load-config outputs\rtcw_crates_cropped\nerfacto\2025-11-16_054618\config.yml --camera-path-filename C:\Users\ARITRA\nerfstudio-projects\data\rtcw_crates_cropped\camera_paths\2025-11-16-05-46-23.json --output-path renders/rtcw_crates_cropped/2025-11-16-05-46-23.mp4
+
+saving config to : outputs\rtcw_crates_cropped\nerfacto\2025-11-16_054618\config.yml
+
+
+Config File          │ outputs\rtcw_crates_cropped\nerfacto\2025-11-16_054618\config.yml          │
+│   Checkpoint Directory │ outputs\rtcw_crates_cropped\nerfacto\2025-11-16_054618\nerfstudio_models
+
+
+C:\Windows\System32>conda activate nerfstudio-v2
+
+(nerfstudio-v2) C:\Windows\System32>cd %USERPROFILE%\nerfstudio-projects
+
+(nerfstudio-v2) C:\Users\ARITRA\nerfstudio-projects>tensorboard --logdir=outputs
+TensorFlow installation not found - running with reduced feature set.
+Serving TensorBoard on localhost; to expose to the network, use a proxy or pass --bind_all
+TensorBoard 2.14.0 at http://localhost:6006/ (Press CTRL+C to quit)
+
+time taken to render the video : 3:30:07
+
+steps taken : 29500
