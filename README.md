@@ -84,3 +84,23 @@ You can leave this terminal running.
 
 
 
+# Phase 4: Getting Final Results
+
+Goal: Wait for training to finish, then export your video, metrics table, and graphs.
+
+1. Let Training Finish: Wait for the ns-train terminal (your first terminal) to complete its 30,000 steps.
+
+2.Render Your Video: After training stops, run the ns-render command you saved from the viewer (Sample Link from my case):
+
+```bash
+ns-render camera-path --load-config outputs\rtcw_crates_cropped\nerfacto\2025-11-16_054618\config.yml --camera-path-filename C:\Users\ARITRA\nerfstudio-projects\data\rtcw_crates_cropped\camera_paths\2025-11-16-05-46-23.json --output-path renders/rtcw_crates_cropped/2025-11-16-05-46-23.mp4
+```
+
+3. Get Final Metrics Table: After rendering, run the ns-eval command. This points to the exact config.yml from your training run and saves the results to a file named rtcw_metrics.json.
+
+```bash
+ns-eval --load-config "outputs\rtcw_crates_cropped\nerfacto\2025-11-16_054618\config.yml" --output-path "rtcw_metrics.json"
+```
+I can then open this rtcw_metrics.json file in VS Code to get the final numbers.
+
+4. Save Your Graphs: Go to your TensorBoard page and save the graphs containing LPIPS, PSNR, SSIM and depth map etc. You can now safely shut down the process by pressing Ctrl+C in the nvidia-smi terminal and the tensorboard terminal to close them.
