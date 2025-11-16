@@ -90,7 +90,7 @@ Goal: Wait for training to finish, then export your video, metrics table, and gr
 
 1. Let Training Finish: Wait for the ns-train terminal (your first terminal) to complete its 30,000 steps.
 
-2.Render Your Video: After training stops, run the ns-render command you saved from the viewer (Sample Link from my case):
+2.Render Your Video: You need to go the live rendering web page of nerfstudio and select a few keyframes (basically location and pose of cameras) and click on generate command and copy the command. After training stops, run the ns-render command you saved from the viewer (Sample Link from my case):
 
 ```bash
 ns-render camera-path --load-config outputs\rtcw_crates_cropped\nerfacto\2025-11-16_054618\config.yml --camera-path-filename C:\Users\ARITRA\nerfstudio-projects\data\rtcw_crates_cropped\camera_paths\2025-11-16-05-46-23.json --output-path renders/rtcw_crates_cropped/2025-11-16-05-46-23.mp4
