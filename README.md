@@ -40,7 +40,7 @@ conda activate nerfstudio-v2
 ```bash
 cd %USERPROFILE%\nerfstudio-projects
 ```
-4. Run the ns-process-data command. This will find colmap.exe in your PATH and process your cropped images.
+4. Run the ns-process-data command. This will find colmap.exe in your PATH and process the cropped images.
 
 ```bash
 ns-process-data images --data data/rtcw_crates_cropped --output-dir data/rtcw_crates_croppedns-process-data images --data data/rtcw_crates_cropped --output-dir data/rtcw_crates_cropped
